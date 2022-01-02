@@ -1,0 +1,22 @@
+.idea
+vendor
+storage
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# ENV
+.env
+config/env.php
+
+# Assets
+
+node_modules
+npm-debug.log
+.package-lock.json
+.nuxt
